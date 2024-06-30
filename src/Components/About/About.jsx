@@ -1,7 +1,7 @@
-import React from 'react'
-import './About.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_image from "../../assets/profile_img.svg";
+import React from "react";
+import "./About.css";
+import theme_pattern from "../../assets/theme_pattern.svg";
+import profile_image from "../../assets/about_profile.svg";
 
 const About = () => {
   return (
@@ -43,25 +43,25 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="about-achievements">
-          <div className="about-achievement">
-            <h1>10+</h1>
-            <p>Years of Experience</p>
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>15+</h1>
-            <p>Projects Completed</p>
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>14+</h1>
-            <p>Happy Clients</p>
-          </div>
+      </div>
+      <div className="about-achievements">
+        <div className="about-achievement">
+          <h1>10+</h1>
+          <p>Years of Experience</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>15+</h1>
+          <p>Projects Completed</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>14+</h1>
+          <p>Happy Clients</p>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;
