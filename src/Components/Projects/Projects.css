@@ -29,10 +29,13 @@
 }
 
 .project-card {
-  background: #d2c5c5;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.911);
+  border: 2px solid #ef7070;
+  gap: 10px;
+  padding: 15px;
   width: 300px;
   color: #333;
   transition: 0.3s;
@@ -42,11 +45,22 @@
   z-index: 1000;
 }
 
-.project-card h3 {
-  margin: 0 0 10px;
+.project-card-top h3 {
+  font-size: 30px;
+  font-weight: 800;
+  background: linear-gradient(270deg,#DF8908 50%,#B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
 }
 
-.project-card p {
-  margin: 0 0 10px;
+.project-card-top p {
+  color: #d4d4d4;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 300px
+}
+.project-card a{
+  color: #d4d4d4;
 }
 

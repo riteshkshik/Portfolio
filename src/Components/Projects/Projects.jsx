@@ -27,8 +27,10 @@ const Projects = () => {
       <div className="projects-container">
         {projects.map((repo) => (
           <div key={repo.id} className="project-card">
-            <h3>{repo.name}</h3>
-            <p>{repo.description || "No description available."}</p>
+            <div className="project-card-top">
+              <h3>{repo.name}</h3>
+              <p>{repo.description || "No description available."}</p>
+            </div>
             <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>
