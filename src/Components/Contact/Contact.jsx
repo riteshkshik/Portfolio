@@ -41,7 +41,7 @@ const Contact = () => {
           <label htmlFor="">Your Email</label>
           <input type="email" placeholder='Enter Your Email' name='email'/>
           <label htmlFor="">Write Your Message Here</label>
-          <textarea name="message" rows="8" placeholder='Enter Your Message'></textarea>
+          <textarea name="message" rows="5" placeholder='Enter Your Message'></textarea>
           <button type='submit' className="contact-submit">Submit Now</button>
         </form>
       </div>
