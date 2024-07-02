@@ -17,6 +17,13 @@
     gap: 35px;
     align-items: center;
 }
+.footer-email-form{
+    display: flex;
+    gap: 30px;
+}
+.footer-subscribe{
+    color: white;
+}
 .footer-email-input{
     display: flex;
     gap: 30px;

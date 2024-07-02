@@ -19,7 +19,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="open-source-projects">
+    <div id="projects" className="open-source-projects">
       <div className="open-source-projects-title">
         <h1>Open Source Projects</h1>
         <img src={theme_pattern} alt="" />
