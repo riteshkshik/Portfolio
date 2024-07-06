@@ -64,3 +64,34 @@
   color: #d4d4d4;
 }
 
+@media(max-width:768px){
+  .open-source-projects{
+    align-items: start;
+    gap: 70px;
+    margin: 20px 30px;
+  }
+  .open-source-projects-title h1{
+    padding: 0;
+    font-size: 50px;
+  }
+  .open-source-projects-title img{
+    width: 130px;
+    margin-right: -20px;
+  }
+  .projects-container{
+    gap: 20px;
+    padding: 32px;
+    margin: -49px -30px;
+  }
+  .project-card{
+    /* width: 200px; */
+  }
+  .project-card-top h3{
+    font-size: 28px;
+  }
+  .project-card-top p{
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px;
+  }
+}

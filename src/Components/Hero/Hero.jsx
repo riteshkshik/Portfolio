@@ -8,12 +8,13 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={profile_image} alt="" />
       <h1>
-        <span>I am Ritesh,</span> Backend Developer based in India.
+        <span>I am Ritesh,</span> Full Stack Developer based in India.
       </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ex
-        obcaecati eius nesciunt reprehenderit alias amet hic! Ratione
-        exercitationem harum, laudantium sapiente earum rem odio.
+        Associate Software Developer skilled in JavaScript, SQL, React & C++.
+        Experienced in developing APIs, GPS services, and dynamic web and mobile
+        applications. Enthusiastic about optimizing performance and enhancing
+        user experiences.
       </p>
       <div className="hero-action">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
